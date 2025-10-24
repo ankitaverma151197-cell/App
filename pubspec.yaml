@@ -1,0 +1,49 @@
+name: grocery_onlineapp
+description: A new Flutter project.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  get: ^4.1.4
+  fluttertoast: ^8.0.7
+  intl: ^0.17.0
+  pin_input_text_field: ^4.0.0
+  flutter_swiper: ^1.1.6
+  percent_indicator: ^3.0.1
+  flushbar: ^1.10.4
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+  change_app_package_name: ^1.0.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/icon.png"
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - assets/
+     - assets/images/
+
+
+  fonts:
+     - family: Google-Sans
+       fonts:
+         - asset: assets/fonts/ProductSans-Regular.ttf
